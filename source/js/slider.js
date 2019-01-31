@@ -2,7 +2,7 @@ var controls = document.querySelector('.controls');
 var slides = document.querySelectorAll('.slide');
 var controlDots = controls.querySelectorAll('.controls__dot');
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3000);
+var slideInterval = setInterval(nextSlide,300);
 
 function nextSlide() {
   slides[currentSlide].classList.remove('slide_visible');
