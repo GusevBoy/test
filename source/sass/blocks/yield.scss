@@ -1,0 +1,30 @@
+.yield {
+  background-image: linear-gradient(#fff 45px,rgba(97,91,187, 0.8) 45px,rgba(97,91,187, 0.8) 100%);
+  font-family: OpenSans;
+}
+
+.yield__inner {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.yield__title {
+  width: 106px;
+  box-sizing: border-box;
+  padding: 45px 30px 42px 15px;
+  background-color: rgba(#f2c7d6, 0.2);
+  margin: 0;
+  border-top: 1px solid #b7b7b7;
+  border-bottom: 1px solid #b7b7b7;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #000000;
+}
+
+.yield__calculation {
+  margin-left: 39px;
+}

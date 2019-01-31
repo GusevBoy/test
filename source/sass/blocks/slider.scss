@@ -1,0 +1,54 @@
+.slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  min-width: 1280px;
+  max-width: 1900px;
+  display: none;
+  z-index: 1;
+}
+
+.slide__desc {
+  padding: 224px 0 0 105px;
+}
+
+.slide__title {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 65px 0;
+}
+
+.slide__slogan {
+  max-width: 650px;
+  height: 133px;
+  font-family: OpenSans;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #020202;
+  margin: 0;
+}
+
+.slide_visible {
+  display: block;
+  z-index: 2;
+}
+.slide-1 {
+  background-image: url(../img/slide_1.png);
+}
+
+.slide-2 {
+  background-image: url(../img/slide_2.png);
+}
+
+.slide-3 {
+  background-image: url(../img/slide_3.png);
+}

@@ -1,0 +1,30 @@
+.welcome {
+  position: relative;
+  min-width: 1280px;
+  max-width: 1900px;
+  margin: 0 auto 20px auto;
+}
+
+.welcome__logo {
+  width: 60px;
+  height: 60px;
+}
+
+.welcome__header,
+.welcome__footer {
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 34px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.welcome__header {
+  top: 33px;
+}
+
+.welcome__footer {
+  bottom: 30px;
+}
