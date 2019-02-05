@@ -1,0 +1,25 @@
+.news {
+  display: flex;
+}
+
+.news__block {
+  display: flex;
+}
+
+@media (max-width: 320px) {
+  .news {
+    max-width: 320px;
+    flex-wrap: wrap;
+  }
+  .news__block {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .news {
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+}
